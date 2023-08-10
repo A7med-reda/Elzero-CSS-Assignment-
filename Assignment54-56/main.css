@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.A1 {
+  position: relative;
+  width: 600px;
+  height: 100px;
+  background-color: #eee;
+  color: black;
+  padding: 20px;
+  margin: 20px auto;
+  text-align: center;
+  font-size: xxx-large;
+  letter-spacing: 5px;
+  border-left: 10px solid red;
+  border-right: 10px solid #673ab7;
+}
+
+.A1::first-letter {
+  color: violet;
+}
+
+.A1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background-image: linear-gradient(
+    to left,
+    #673ab7 20%,
+    #673ab7 20%,
+    #e91e63 20%,
+    #e91e63 40%,
+    #4caf50 40%,
+    #4caf50 60%,
+    #2196f3 60%,
+    #2196f3 80%,
+    #f44336 80%
+  );
+}
+.A1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background-image: linear-gradient(
+    to left,
+    #673ab7 20%,
+    #673ab7 20%,
+    #e91e63 20%,
+    #e91e63 40%,
+    #4caf50 40%,
+    #4caf50 60%,
+    #2196f3 60%,
+    #2196f3 80%,
+    #f44336 80%
+  );
+}
+
+form {
+  position: relative;
+  width: 600px;
+  margin: 20px auto;
+}
+
+form input {
+  width: 600px;
+  height: 50px;
+  position: relative;
+  background-color: #eee;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  caret-color: red;
+}
+div {
+  position: relative;
+}
+div::before {
+  content: "";
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  background-image: linear-gradient(
+    to left,
+    #f44336 20%,
+    #f44336 50%,
+    #009688 50%,
+    #009688 100%
+  );
+}

@@ -1,0 +1,153 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:root {
+  --mainColor: #eee;
+  --subColor: #ddd;
+  --mainpading: 10px;
+}
+.t1 {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  margin: 20px auto;
+  font-weight: 600;
+  background-color: #eee;
+  color: #ff5722;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 0px 0px 0px #ff5722, -5px 0px 0px 0px #03a9f4;
+}
+.parent {
+  width: 600px;
+  height: 300px;
+  background-color: #eee;
+  padding: 10px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.parent div {
+  background-color: #ff5722;
+  color: white;
+  padding: 5px;
+  width: calc(94% / 3);
+  height: 30px;
+  text-align: center;
+}
+.parent2 {
+  width: 600px;
+  height: 300px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #eee;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.parent2 div {
+  width: calc(95% / 3);
+  background-color: #607d8b;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.one {
+  height: 30px;
+  order: 6;
+  align-self: flex-end;
+}
+.two {
+  order: 5;
+}
+
+.three {
+  order: 2;
+  height: 30px;
+}
+.four {
+  order: 3;
+}
+.five {
+  order: 4;
+}
+.six {
+  order: 1;
+}
+
+.parent3 {
+  width: 600px;
+  height: 300px;
+  padding: 10px;
+  margin: 20px auto;
+  background-color: #eee;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.parent3 div {
+  display: flex;
+  background-color: #009688;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.one1 {
+  align-self: flex-end;
+  height: 80px;
+  width: 30px;
+}
+.two1 {
+  height: 25%;
+  width: 50%;
+}
+.three1 {
+  align-self: flex-end;
+  height: 80px;
+  width: 30px;
+}
+
+.parent4 {
+  width: 600px;
+  height: 300px;
+  padding: 10px;
+  margin: 20px auto;
+  background-color: #eee;
+  display: flex;
+  justify-content: space-between;
+}
+.parent4 div {
+  color: white;
+  width: calc(70% / 4);
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.one4 {
+  background-color: #ffa317;
+  order: 2;
+}
+.two4 {
+  background-color: #8bc34a;
+  order: 3;
+  align-self: flex-end;
+}
+.three4 {
+  background-color: #795548;
+  order: 4;
+}
+.four4 {
+  background-color: #673ab7;
+  align-self: flex-end;
+  order: 1;
+}

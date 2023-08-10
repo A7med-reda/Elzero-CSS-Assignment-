@@ -1,0 +1,65 @@
+.a1{
+
+    color: black;
+    padding: 10px;
+    text-transform: uppercase;
+  text-align: center; 
+   text-shadow: 0.65px 0.65px 0px  orangered, 1px 1px 0px  rgb(29, 108, 211), 1.5px 1.5px 0px  rgba(205, 10, 192, 0.721);
+}
+
+.one{
+
+    text-transform: uppercase;
+
+}
+
+.two{
+
+    text-transform: capitalize;
+}
+
+.three{
+
+    text-transform:lowercase;
+}
+
+.ass3{
+    background-color: #eee;
+    padding: 20px ;
+    margin: 20px ;
+    width: 400px ;
+    white-space: normal;
+}
+
+.ass31{
+    background-color: #eee;
+    padding: 20px ;
+    margin: 20px ;
+    width: 400px ;
+   
+
+}
+
+.ass32{
+    background-color: #eee;
+    padding: 20px ;
+    margin: 20px ;
+    width: 400px ;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ass4{
+    display: block;
+    width: max-content;
+  
+     background-color: darkcyan;
+    padding: 20px ;
+    border-bottom: 10px solid rgb(38, 90, 90);
+    margin: auto;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
